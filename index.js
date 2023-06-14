@@ -22,14 +22,17 @@ const fareDoubler = function(a){
 const fareTripler = function(a){
     return a*3
 }
-function selectDifferentDrivers(arrayOfDrivers,afunction=returnFirstTwoDrivers()){
-    return selectingDrivers[0];
+function selectDifferentDrivers(arrayOfDrivers,func){
+    return func(arrayOfDrivers)
  } 
+
+
+
+
+
+
     
 
- function selectDifferentDrivers(arrayOfDrivers,afunction=returnLastTwoDrivers()){
-    return selectingDrivers[1];
- } 
-   
+ 
    
 
